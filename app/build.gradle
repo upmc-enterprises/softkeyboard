@@ -14,6 +14,10 @@ android {
         targetCompatibility = 1.8
     }
 
+    lintOptions {
+        abortOnError false
+    }
+
     buildTypes {
         release {
             minifyEnabled false
